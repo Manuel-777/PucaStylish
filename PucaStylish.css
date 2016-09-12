@@ -1,0 +1,212 @@
+PucaS@-moz-document domain("pucatrade.com") {
+.card-list-area .meta {
+    padding-left: 20px;
+}
+.card-list-area.editable .meta {
+    padding-left: 20px;
+}
+
+.otheruser .card-list-area .items .item,
+.send-card-area-wrapper .card-list-area .items .item, 
+.card-details .profile-tab-area .card-list-area .items .item {
+    height:70px;
+}
+
+
+.otheruser .card-list-area .items .item a.btn,.send-card-area-wrapper .card-list-area .items .item a.btn,
+.card-details .profile-tab-area .card-list-area .items .item .btn {
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+
+.card-list-area .items .item .meta .quantity,.card-list-area.editable .items .item .meta .quantity {
+    font-size: 13px;
+    /* left: -120px; */
+    font-weight: 800;
+    top: 2px;
+    /*width: 23%;*/
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.card-details .profile-tab-area .card-list-area .items .item .meta,
+.otheruser .card-list-area .items .item .meta,.send-card-area-wrapper .card-list-area .items .item .meta {
+    top: 5px;
+}
+
+
+#wants .card-list-area .items .item .meta .language {
+    margin-left: 200px;
+}
+
+.profile-tab-area #trades .card-list-area .items .item .meta .language {
+    margin-left: 200px;
+}
+
+.send-card-area-wrapper .card-list-area .items .item .btn.short {
+    margin-left: 64px;
+}
+
+
+.send-card-area-wrapper .card-list-area .items .item .user {
+    right: 110px;
+    bottom: 6px;
+}
+
+/* REMOVE RARITY ICON */
+.card-details .profile-tab-area .card-list-area .items .item .user .roleIcon a {
+    display: none;
+}
+
+/* REMOVE TRENDS, CUZ WE AINT NO GOLD */
+.trend-area {
+    display: none;
+}
+
+.nav-promo {
+    height: 0px;
+}
+
+.ad .navbg-wrapper {
+    transform:translateY(0px)
+}
+
+.card-detail-area-wrapper {
+    margin-bottom: 32px;
+}
+
+/* FIX CARD DISPLAY (was huge) */
+
+.card-detail-area {
+    padding: 80px 24px;
+}
+
+.card-detail-area .header {
+    margin-bottom: 20px;
+}
+
+/* FIX TRENDS */
+
+.leaders-area .item .image img,.trending-area .item .image img {
+    width: auto;
+    height: 150px;
+}
+
+.leaders-area .item .content,.trending-area .item .content {
+    margin-right: 100px;
+}
+
+.leaders-area .item,.trending-area .item {
+    width: 280px;
+}
+
+/* FIX SENDING PAGE */
+/*
+.receiving-area-wrapper .items .content .price_card_cont,
+.sending-area-wrapper .items .content .price_card_cont {
+    display: flex;
+}
+
+.receiving-area-wrapper .items .content .price,
+.sending-area-wrapper .items .content .price {
+    margin: 16px 8px 16px 16px;
+}
+
+.receiving-area-wrapper .items .content .card
+,.sending-area-wrapper .items .content .card {
+    padding: 16px 8px 16px 8px;
+}
+
+.receiving-area-wrapper .items .content .card,
+.sending-area-wrapper .items .content .card {
+    margin-bottom: 0px;
+}
+
+.receiving-area-wrapper .items .content .bottom .author .info,
+.sending-area-wrapper .items .content .bottom .author .info {
+    padding-top: 18px;
+}
+
+.receiving-area-wrapper .items .content .card .row,
+.sending-area-wrapper .items .content .card .row {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.receiving-area-wrapper .iconwrapper,
+.sending-area-wrapper .iconwrapper {
+    width: 40px;
+}
+
+.iconUninsured {
+    padding: 0px 0px 0px 26px;
+    background-size: 16px;
+}
+
+.iconInsured {
+    padding: 0px 0 0px 26px;
+    background-size: 16px
+}
+
+.receiving-area-wrapper .items .content .bottom .inner .actions .icon,
+.sending-area-wrapper .items .content .bottom .inner .actions .icon {
+    display: none;
+}
+
+.receiving-area-wrapper .items .content .bottom .actions,
+.sending-area-wrapper .items .content .bottom .actions {
+    width: 105px;
+}
+
+.receiving-area-wrapper .items .item_package,
+.sending-area-wrapper .items .item_package {
+    height: 64px;
+}
+
+.receiving-area-wrapper .items .item .trade_art:after,
+.sending-area-wrapper .items .item .trade_art:after {
+    opacity: 0.25;
+}
+
+.receiving-area-wrapper .items .panel .title,
+.sending-area-wrapper .items .panel .title {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.receiving-area-wrapper .items .panel .days,
+.sending-area-wrapper .items .panel .days {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.receiving-area-wrapper .items .panel .title .icons,
+.sending-area-wrapper .items .panel .title .icons {
+    display: none;
+}
+
+.receiving-area-wrapper .items .panel,
+.sending-area-wrapper .items .panel {
+    width: 300px;
+}
+
+
+.receiving-area-wrapper .items .item,
+.sending-area-wrapper .items .item {
+    max-width: 100%;
+}
+
+.receiving-area-wrapper .items .content .bottom,
+.sending-area-wrapper .items .content .bottom {
+    width: auto;
+}
+
+.receiving-area-wrapper .items .content .bottom,
+.sending-area-wrapper .items .content .bottom {
+    align-self: flex-start;
+    -webkit-align-self: flex-start;
+}*/
+}
