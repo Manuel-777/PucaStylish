@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+}
+
+.footer-area {
+    background: #e7edef;
+}
+
+.dashboard-area-wrapper .container {
+    background: url(/images/dash_cards.png) top left no-repeat,url(/images/dash_color.png) top center no-repeat white;
+}
+
+.dashboard-area-wrapper .block-title {
+    border-bottom: 1px solid rgba(20,20,20,.5);
+}
+
+.btn,.btn.green,.btn.red,a,body {
+    color: #000;
+}
+
+.dashboard-news-area .item.small .content {
+    color: #000;
+}
+
+.dashboard-news-area .item.small .author {
+    color: #000;
+}
+
+.dashboard-news-area .main-image {
+    background-color: #b0d5e0;
+}
+
+.switch-puca.switch-toggle:hover {
+    background: #b0d5e0;
+}
+
+.price {
+    color: #4a3308;
+    border: 1px solid #4a3308;
+    background: rgba(255,255,255,.4);
+}
+
+.card-list-area .items .item .meta .price,.card-list-area.editable .items .item .meta .price {
+    margin-right: 5px;
+    color: #4a3308;
+    border: 1px solid #4a3308;
+    background: rgba(255,255,255,.4);
+}
+
+a.btn.small {
+    color: white;
+}
+
+.action .btn {
+    border: 2px solid #000;
+    background-color: rgba(0,0,0,0.1);
+    opacity: .6;
+}
+
+.receiving-area-wrapper .details .card-details,.sending-area-wrapper .details .card-details {
+    background: #fff;
+    color: #000;
+}
+
+/* SIDEBAR */
+
+.main-sidebar .navbg-wrapper .navbg:before {
+    background: url(https://dl.dropboxusercontent.com/u/64862817/PucaTheme/img-mask-light.png);
+}
+
+.main-sidebar {
+    background: white;
+}
+
+/* CARD DETAILS */
+.card-detail-area-wrapper {
+    background: white;
+}
+
+.card-detail-bg-image {
+    opacity: 0.8;
+}
+
+.want {
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+.card-list-area .heading .meta .column,.card-list-area.editable .heading .meta .column {
+    color: #000;
+}
+
+.card-details {
+    background-color: white;
+}
+
+.card-list-area .items .item,
+.card-list-area.editable .items .item {
+    background: #ececec;
+}
+
+.column {
+    color: #191919;
+}
+
+.filter-black-area a,
+.filter-white-area a {
+    color: #000;
+}
+
+.card-details .profile-tab-area .card-list-area .items .item .btn {
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    .card-list-area .items .item:nth-of-type(2n),.card-list-area.editable .items .item:nth-of-type(2n) {
+        background:white;
+    }
+
+    .card-list-area .items .item:nth-of-type(2n) .bg:before,.card-list-area.editable .items .item:nth-of-type(2n) .bg:before {
+        background-image: -webkit-linear-gradient(left,transparent,white);
+        background-image: linear-gradient(to right,transparent,white)
+    }
+}
+
+.card-list-area .items .item .bg:before,.card-list-area.editable .items .item .bg:before {
+    background-image: -webkit-linear-gradient(left,transparent,#ececec);
+    background-image: linear-gradient(to right,transparent,#ececec)
+}
+
+/* MESSAGES */
+
+.message-area-wrapper .message-area-bg {
+    height: 435px;
+    opacity:1;
+}
+.message-area-wrapper .message-area-bg:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background: url(https://dl.dropboxusercontent.com/u/64862817/PucaTheme/inbox-grade.png) bottom center;
+}
+
+.message-area-wrapper {
+    background: #d2d2d2;
+}
+
+/* PROFILE */
+.card-list-area .items .item .toggle-dropdown,.card-list-area.editable .items .item .toggle-dropdown {
+    color: #000;
+}
+
+.filter-black-area .toggle-dropdown:after {
+    border-top: 5px solid #000;
+}
+
+.profile-area-wrapper {
+    background-color: white;
+}
+
+.profile-tab-area .tab-desktop .tab.active {
+    background: white;
+    color: #000;
+}

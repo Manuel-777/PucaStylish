@@ -1,4 +1,3 @@
-PucaS@-moz-document domain("pucatrade.com") {
 .card-list-area .meta {
     padding-left: 20px;
 }
@@ -39,11 +38,11 @@ PucaS@-moz-document domain("pucatrade.com") {
 
 
 #wants .card-list-area .items .item .meta .language {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .profile-tab-area #trades .card-list-area .items .item .meta .language {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .send-card-area-wrapper .card-list-area .items .item .btn.short {
@@ -104,7 +103,7 @@ PucaS@-moz-document domain("pucatrade.com") {
 }
 
 /* FIX SENDING PAGE */
-/*
+
 .receiving-area-wrapper .items .content .price_card_cont,
 .sending-area-wrapper .items .content .price_card_cont {
     display: flex;
@@ -208,5 +207,4 @@ PucaS@-moz-document domain("pucatrade.com") {
 .sending-area-wrapper .items .content .bottom {
     align-self: flex-start;
     -webkit-align-self: flex-start;
-}*/
 }
